@@ -20,4 +20,6 @@ AI-powered stock analysis API providing daily predictions and market insights.
 
 - Free: 100 req/month
 - Basic: \$9.99/month
+
 - Pro: \$29.99/month
+- gunicorn -w 4 app:app --bind 0.0.0.0:$PORT
